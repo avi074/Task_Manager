@@ -102,7 +102,7 @@ function TaskItem({
         </div>
       </form>
       {/* Tasks List */}
-      <ul className='p-4 grid grid-cols-1 lg:grid-cols-2'>
+      <ul className='p-4 grid grid-cols-1 lg:grid-cols-2 gap-4 place-content-center place-items-center'>
         {filteredTasks?.map(({ id, name, desc, priority, status }) => (
           <li className='mx-auto my-4 w-full lg:m-0 lg:px-4' key={`Task-${id}`}>
             <Card variant='gradient' color='gray'>
