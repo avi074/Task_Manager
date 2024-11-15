@@ -1,5 +1,11 @@
 # [Task Manager]()
-This is my first React App. It's a simple ToDo List application that lets you create tasks, updates them & marks them as per user's input.
+It's a simple task-management react app with functions like
+ - Add Task
+ - Search Tasks
+ - Filter Tasks
+ - Update Tasks
+ - Persist Tasks using LocalStorage
+ - Delete Tasks
 
 
 ## Prerequisites
@@ -48,9 +54,39 @@ npm run build
 - `src/` : Contains your JSX/Source files 
     - `assets/` : Assets
     - `components/` : React Components
-    - `utils/` : Utilities
+    - `utils/` : Utilities & Constants
 
 - `index.html` : Index HTML file
+
+## Screenshots
+
+- Task Manager Layout
+![](./screenshots/1.PNG)
+
+- Creating a Task
+![](./screenshots/2.PNG)
+
+- Layout after some tasks created
+![](./screenshots/3.PNG)
+
+- Task searching
+![](./screenshots/4.PNG)
+
+- Changing task status 
+![](./screenshots/5.PNG)
+
+- Sorting through status
+![](./screenshots/6.PNG)
+
+- Filtering tasks by priority & status
+![](./screenshots/7.PNG)
+
+- After deleting 2 tasks
+![](./screenshots/8.PNG)
+
+- Editing a Task
+![](./screenshots/9.PNG)
+![](./screenshots/10.PNG)
 
 ## Contributing
 
@@ -58,4 +94,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT]
+[MIT]()
