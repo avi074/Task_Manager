@@ -29,9 +29,5 @@
 }
 
 .input-container{
-  @apply flex flex-col gap-4; 
-}
-
-.input-container input{
- @apply p-4 outline-none border-2;
+  @apply !min-w-20; 
 }
